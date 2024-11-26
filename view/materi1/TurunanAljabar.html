@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbollab</title>
+    <link rel="icon" href="../../asset/img/dashboard/logo_SYmbolab.png" />
+    <link rel="stylesheet" href="../../asset/css/materi/TurunanAljabar/materi1.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navigasi">
+      <span class="hamburger-btn material-symbols-rounded"
+        ><i data-feather="menu"></i
+      ></span>
+      <a href="#" class="logo">
+        <img src="../../asset/img/dashboard/logo_SYmbolab.png" alt="logo" />
+        <h2>Symbollab</h2>
+      </a>
+      <ul class="links">
+        <span class="close-btn material-symbols-rounded">close</span>
+        <li><a href="../../dashboard.html">Beranda</a></li>
+        <li><a href="../Quiz.html">Quiz</a></li>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle bg-transparent text-black border-0 fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Materi
+          </button>
+          <ul class="dropdown-menu dropdown-menu-transparant">
+            <li><a class="dropdown-item" href="TurunanAljabar.html">Turunan Aljabar</a></li>
+            <li><a class="dropdown-item" href="../materi2/TurunanLogaritma.html">Turunan Logaritma</a></li>
+            <li><a class="dropdown-item" href="../materi3/TurunanEksponensial.html">Turunan Eksponensial</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </div>
+        <li class=""><a href="../about.html">Tentang Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+      <div>
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+          <span class="close-btn material-symbols-rounded">close</span>
+          <div class="form-box login">
+            <div class="form-details">
+              <h2>Selamat Datang</h2>
+              <p>Harap login terlebih dahulu untuk informasi lebih lanjut</p>
+            </div>
+            <div class="form-content">
+              <h2>LOGIN</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required />
+                  <label>Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required />
+                  <label>Password</label>
+                </div>
+                <a href="#" class="forgot-pass-link">Lupa password?</a>
+                <button type="submit">Log In</button>
+              </form>
+              <div class="bottom-link">
+                Belum Punya Akun?
+                <a href="#" id="signup-link">Signup</a>
+              </div>
+            </div>
+          </div>
+          <div class="form-box signup">
+            <div class="form-details">
+              <h2>Buat Akun</h2>
+              <p>
+                Untuk menjadi bagian dari kami, silahkan mendaftar menggunakan
+                informasi pribadi Anda.
+              </p>
+            </div>
+            <div class="form-content">
+              <h2>SIGNUP</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required />
+                  <label>Masukkan email Anda</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required />
+                  <label>Buat password</label>
+                </div>
+                <div class="policy-text">
+                  <input type="checkbox" id="policy" />
+                  <label for="policy">
+                    setuju dengan
+                    <a href="#" class="option">Syarat & Ketentuan</a>
+                  </label>
+                </div>
+                <button type="submit">Sign Up</button>
+              </form>
+              <div class="bottom-link">
+                Sudah memiliki akun?
+                <a href="#" id="login-link">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- content -->
+        <div class="container">
+            <div class="wreapper">
+                <h1 class="judul">Turunan Fungsi Aljabar</h1>
+                <div class="text-wreapper">
+                    <h1 class="subjudul">
+                        Apa itu  Turunan Fungsi Aljabar ?
+                    </h1>
+                    <p class="content">
+                        Pengertian dan Definisi dari Turunan Fungsi Aljabar yaitu:
+                    </p>
+                    <p class="content">
+                      Turunan fungsi aljabar adalah fungsi baru hasil penurunan pangkat dari fungsi sebelumnya menurut aturan yang telah ditetapkan. 
+                    </p>    
+                    <p class="content">
+                      Jika diimplementasikan di dalam grafik fungsi, turunan ini merupakan gradien garis singgung terhadap grafik di titik tertentu. 
+                    </p>
+                    <p class="content">Tingkat turunan fungsi tidak terbatas pada satu tingkat saja, tetapi juga bisa dua tingkat, tiga tingkat, dan seterusnya. Konsep turunan setiap tingkatnya juga sama.</p>   
+                    <p class="content">Hanya saja, fungsi yang diturunkan berbeda-beda karena mengacu pada hasil turunan sebelumnya.                    </p>   
+                    <p class="subjudul">Rumus dasar fungsi aljabar</p>   
+                    <div class="img-wreapper-2">
+                      <img class="img-content-rumus" src="../../asset/img/turunanALjabar/gambar 1.png" alt="">
+                  </div>
+                  <p class="subjudul">Sifat turunan fungsi aljabar</p>
+                  <ul>
+                    <li>Turunan fungsi Konstan</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/gambar2.png" alt="" class="img-content-2">
+                    </div>
+                    <li>Turunan fungsi identitas</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/gambar3.png" alt="" class="img-content-2">
+                    </div>
+                    <li>Turunan fungsi aljabar berpangkat n</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/Gambar4.jpg" alt="" class="img-content-2">
+                    </div>
+                    <li>Rumus turunan Jumlah dan selisih fungsi-fungsi</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/Gambar5.jpg" alt="" class="img-content-2">
+                    </div>
+                    <li>Turunan fungsi aljabar hasil kali</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/gambar6.jpg" alt="" class="img-content-2">
+                    </div>
+                    <li>Rumus turunan fungsi aljabar hasil kali diatas dapat diperluas untuk mencari rumus turunan yang terdiri dari tiga fungsi, yaitu:</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/Gambar7.jpg" alt="" class="img-content-2">
+                    </div>
+                    <li>Turunan fungsi aljabar hasil bagi, dengan syarat v(x) ≠ 0</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/Gambar8.jpg" alt="" class="img-content-2">
+                    </div>
+                    <li>Sifat-sifat turunan fungsi aljabar</li>
+                    <div class="img-wreapper-2">
+                      <img src="../../asset/img/turunanALjabar/Gambar9.jpg" alt="" class="img-content-2">
+                    </div>
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" style="width: 100%;">
+              <!-- Footer -->
+      <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: bisque"
+    >
+      <!-- Grid container -->
+      <div class="p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-dark">
+              <h6 class="text-uppercase mb-4 fw-bold text-dark">Sybollab</h6>
+              <p>
+                Terimakasih sudah berkunjung di website ini . Dukung selalu
+                website ini untuk lebih berkembang lagi.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 fw-bold text-dark">Materi</h6>
+              <p>
+                <a class="text-dark text-decoration-none">Turunan Aljabar</a>
+              </p>
+              <p>
+                <a class="text-dark text-decoration-none"
+                  >Turunan Logaritma</a
+                >
+              </p>
+              <p>
+                <a class="text-dark text-decoration-none"
+                  >TUrunan Eksponensial</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6
+                class="text-uppercase mb-4 font-weight-bold text-dark fw-bold"
+              >
+                Contact
+              </h6>
+              <p class="fas fa-home mr-3 text-dark fw-normal">Jl. Mugarsari, Kec. Tamansari, Kota Tasik. Tasikmalaya, Jawa Barat 46196.</p>
+              <p class="fas fa-envelope mr-3 text-dark">
+                admin@Symbollab.com
+              </p>
+              <p class="fas fa-phone mr-3 text-dark">+ 62 813 1245 0306</p>
+              <p class="fas fa-print mr-3 text-dark">+081312450306</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 fw-bold text-dark">Follow us</h6>
+              <div class="social-media d-flex">
+                <img
+                  class="footer-icon mt-1"
+                  src="../../asset/img/dashboard/logo-fb.png"
+                  alt=""
+                />
+                <img
+                  class="footer-icon mt-1"
+                  src="../../asset/img/dashboard/logo-ig.png"
+                  alt=""
+                />
+                <img
+                  class="footer-icon mt-1"
+                  src="../../asset/img/dashboard/logo-twitter.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-3 text-dark"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        © 2024 Copyright:
+        <a class="text-dark fw-bold text-decoration-none" href="#"
+          >Kelompok 4</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="../../asset/js/script.js"></script>
+        <script>
+          feather.replace();
+        </script>
+</body>
+</html>
